@@ -18,8 +18,9 @@
             padding: 0;
             height: 100%;
             font-family: 'Inter', sans-serif;
-            overflow: hidden;
+            /* overflow: hidden; */
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
@@ -151,8 +152,7 @@
 <body>
     <div class="container">
         <?php include 'navbar.php' ?>
-
-        <div class="content">
+        <main class="content">
             <div class="image-section">
                 <div class="yellow-bg"></div>
                 <img src="images/Audi_Super_ca_0.jpg" alt="Yellow Car" class="car-image">
@@ -169,7 +169,7 @@
                 <p>The meaning of production in Carlio is the creation, development, and the path to progress, and the starting point to achieve the goals that we all have the Petroforce brand, with over 20 years of experience in the oil and petrochemical industry, we officially started our activities in the field of design, engineering, construction of refinery equipment, and the production of various motor and industrial lubricants in the year 1390 (2011)</p>
                 <a href="#" class="learn-more">Learn More</a>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 

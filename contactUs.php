@@ -20,7 +20,7 @@
         body,
         html {
             font-family: 'Inter', sans-serif;
-            overflow: hidden;
+            /* overflow: hidden; */
             display: flex;
             justify-content: center;
             align-items: flex-start;
